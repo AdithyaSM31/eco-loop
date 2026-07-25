@@ -161,11 +161,11 @@
 
   RunPeriod,
     Run Period 1,            !- Name
-    1,                       !- Begin Month
+    5,                       !- Begin Month
     1,                       !- Begin Day of Month
     ,                        !- Begin Year
-    1,                       !- End Month
-    10,                      !- End Day of Month
+    5,                       !- End Month
+    16,                      !- End Day of Month
     ,                        !- End Year
     Tuesday,                 !- Day of Week for Start Day
     Yes,                     !- Use Weather File Holidays and Special Days
