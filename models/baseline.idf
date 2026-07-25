@@ -164,8 +164,8 @@
     1,                       !- Begin Month
     1,                       !- Begin Day of Month
     ,                        !- Begin Year
-    12,                      !- End Month
-    31,                      !- End Day of Month
+    1,                       !- End Month
+    10,                      !- End Day of Month
     ,                        !- End Year
     Tuesday,                 !- Day of Week for Start Day
     Yes,                     !- Use Weather File Holidays and Special Days
@@ -3524,8 +3524,7 @@
   OutputControl:Table:Style,
     HTML;                    !- Column Separator
 
-  Output:Table:SummaryReports,
-    AllSummaryAndSizingPeriod;  !- Report 1 Name
+  ! Output:Table:SummaryReports disabled to prevent short-run crash
 
   Output:Surfaces:List,Details;
 
