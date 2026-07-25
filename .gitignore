@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+eplusout.*
+eplustbl.*
+sqlite.err
+EnergyPlus*
+simulation_log.csv
+.DS_Store
